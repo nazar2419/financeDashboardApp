@@ -15,7 +15,7 @@ const gridTemplateLargeScrens = `
     "g h j"
 `;
 
-const gridTemplateSmallScrens =  `
+const gridTemplateSmallScreens =  `
   "a"
   "a"
   "a"
@@ -60,7 +60,7 @@ const Dashboard = () => {
         } : {
           gridAutoColumns: "1fr",
           gridAutoRows: "80px",
-          gridTemplateAreas: gridTemplateSmallScrens,
+          gridTemplateAreas: gridTemplateSmallScreens,
         }
       }
     >
