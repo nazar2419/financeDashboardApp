@@ -21,7 +21,6 @@ import {
 const Row1 = () => {
   const { palette } = useTheme();
   const { data } = useGetKpisQuery();
-  console.log("data:", data);
   const revenue = useMemo(() => {
     return (
       data &&
@@ -68,7 +67,7 @@ const Row1 = () => {
         />
         <ResponsiveContainer width="100%" height={500}>
             <AreaChart 
-              width={300}
+              width={500}
               height={400}
               data={revenueExpenses}
               margin={{ top: 15, right: 25, left: -10, bottom: 60 }}
@@ -190,7 +189,7 @@ const Row1 = () => {
             subtitle="graph representing the revenue month by month"
             sideText="+4%"
           />
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%" height={500}>
           <BarChart
             width={500}
             height={300}
