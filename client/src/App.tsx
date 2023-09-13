@@ -10,7 +10,7 @@ import Dashboard from "@/scenes/dashboard";
 function App() {
   const theme = useMemo(() => createTheme(themeSettings), []);
   return (
-      <div className='App'>
+      <div className='app'>
         <BrowserRouter>
         <ThemeProvider theme={theme}>
           <CssBaseline />
