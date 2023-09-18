@@ -65,7 +65,7 @@ const Row1 = () => {
           subtitle="top linerepresents revenue, bottom line represents exspenses"
           sideText="+4%"
         />
-        <ResponsiveContainer width="100%" height={400}>
+        <ResponsiveContainer width="100%" height="100%">
             <AreaChart 
               width={500}
               height={400}
@@ -135,7 +135,7 @@ const Row1 = () => {
           subtitle="top linerepresents revenue, bottom line represents exspenses"
           sideText="+4%"
         />
-        <ResponsiveContainer width="100%" height={400}>
+        <ResponsiveContainer width="100%" height="100%">
             <LineChart 
               width={500}
               height={400}
@@ -189,7 +189,7 @@ const Row1 = () => {
             subtitle="graph representing the revenue month by month"
             sideText="+4%"
           />
-        <ResponsiveContainer width="100%" height={500}>
+        <ResponsiveContainer width="100%" height="100%">
           <BarChart
             width={500}
             height={300}
